@@ -14,6 +14,9 @@ gem 'puma'
 gem 'turbolinks'
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
 gem 'rb-readline'
+gem 'execjs'
+
+
 
 group :development, :test do
   gem 'rack_session_access'
